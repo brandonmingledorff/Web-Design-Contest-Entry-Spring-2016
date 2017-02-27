@@ -1,0 +1,503 @@
+/* Web Fonts -------------------- */
+
+@font-face {
+  font-family: 'Abolition Regular';
+  src: url('../fonts/abolition-regular-webfont.eot');
+  src: url('../fonts/abolition-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/abolition-regular-webfont.woff') format('woff'),
+       url('../fonts/abolition-regular-webfont.ttf') format('truetype');
+}
+
+/* Base Styles -------------------- */
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #878787;
+  margin: 0;
+  font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2 {
+  font-family: 'Abolition Regular', Helvetica, Arial, sans-serif;
+}
+
+h1 {  
+  font-size: 5.625rem; /* 90px/16px  */
+  text-transform: uppercase;
+  font-weight: normal;
+  line-height: 1.3; 
+  text-shadow: 0 1px 1px rgba(0,0,0,.8);
+  margin: 12px 0 0;
+}
+
+h2 {
+  font-size: 3.3125em; /* 53px/16px  */
+  font-weight: normal;
+  line-height: 1.1;
+  margin: 0 0 .5em; /* 0 0 26px */
+}
+
+h3 {
+  font-size: 1.25em; /* 20px/16px  */
+  color: #48525c;
+  line-height: 1.2;
+  margin-bottom: 1.7em; /* 34px */
+}
+
+img {
+  max-width: 100%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+ul,
+ol {
+  margin: 30px 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* Pseudo-classes ------------------ */
+
+a:link {
+  color: #4C9DBC;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #4C9DBC;
+}
+
+a:hover {
+  color: #b2b4b8;
+}
+
+a:active {
+  color: #b2b4b8;
+}
+
+.callout a.selected {
+  color:#b2b4b8;
+}
+
+.navfooter { 
+  text-decoration:underline;
+}
+
+/* Main Styles --------------------- */
+
+.main-header {
+  padding-top: 155px;
+  height: 680px;
+  background: linear-gradient(#8ACFEA, transparent 85%),
+              linear-gradient(0deg, #fff, transparent),
+              #8ACFEA url('../img/book.jpg') no-repeat center;
+  background-size: cover;
+  color: white;
+}
+
+.title {
+  font-size: 1.625rem; /* 26px/16px */
+  letter-spacing: .065em;
+  font-weight: 200;
+  border-bottom: 2px solid;
+  padding-bottom: 10px;
+}
+
+.intro {
+  font-size: 1.25em; /* 20px/16px */
+  line-height: 1.6; 
+  color: initial;
+  padding-top:12px;
+}
+
+.primary-content, {
+  text-align: left;
+}
+
+.main-footer {
+  text-align: center;
+}
+
+.main-header {
+  text-align: center;
+}
+
+.primary-content {
+	padding-top: 25px;
+  padding-bottom: 45px;
+  
+}
+
+.secondary-content {
+	padding-top: 80px;
+	padding-bottom: 70px;
+  border-bottom: 2px solid #dfe2e6;
+}
+
+.buy {
+  font-size: 1.25em;
+  border-bottom: 2px solid;
+  padding: 2px 15px 2px;
+  margin-top: 20px;
+  margin-left: 390px;
+  margin-right: 5px;
+  display:inline-block;
+  border-top: 2px solid;
+  color: #D9EBF2;
+  background-color: #D9EBF2;
+  border-radius:10px;
+}
+
+.t-border {
+  border-top: 2px solid #dfe2e6;
+  
+}
+
+.main-footer { 
+  padding-bottom: 10px;
+  font-size: .8em;
+  background-color:#e7e7e7;
+  padding-top:5px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Contact Table */
+
+.table {
+	margin:0px;
+  margin-top: 4%;
+  padding:0px;
+	width:85%;
+	
+}.table table{
+  border-collapse: collapse;
+  border-spacing: 0;
+	width:100%;
+	height:100%;
+	margin-left: 8%;
+  padding:0px;
+}
+
+}.table tr:hover td{
+	
+}
+.table tr:nth-child(odd){ background-color:#c7fcfc; }
+.table tr:nth-child(even)    { background-color:#ffffff; }.table td{
+	vertical-align:middle;
+	
+  border-width:0px 1px 1px 0px;
+	text-align:left;
+	padding:8px;
+	font-size:15px;
+	font-family:Helvetica;
+	font-weight:normal;
+	color:#000000;
+}
+
+.table tr:last-child td{
+	border-width:0px 1px 0px 0px;
+}
+
+.table tr td:last-child{
+	border-width:0px 0px 1px 0px;
+}
+
+.table tr:last-child td:last-child{
+	border-width:0px 0px 0px 0px;
+}
+
+.table tr:first-child td{
+		background:-o-linear-gradient(bottom, #4da9b7 5%, #76b5cc 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #4da9b7), color-stop(1, #76b5cc) );
+	background:-moz-linear-gradient( center top, #4da9b7 5%, #76b5cc 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#4da9b7", endColorstr="#76b5cc");	background: -o-linear-gradient(top,#4da9b7,76b5cc);
+  background-color:#4da9b7;
+	text-align:center;
+	border-width:0px 0px 1px 1px;
+	font-size:18px;
+	font-family:Helvetica;
+	font-weight:bold;
+	color:#ffffff;
+}
+
+
+/* Nav Footer */
+
+.MainContainer {
+    width: 1200px;
+    background-color: #0066CC;
+}
+.MenuContainer {
+    height: 60px;
+    bottom:0;
+}
+
+#MenuContainer a { 
+  color:#7EB7CE;
+}
+
+#MenuContainer a:hover {
+  color:#b2b4b8;
+}
+
+ul#navigation {
+    height: 60px;
+    list-style: none;
+    margin: 0;
+    padding: 14px;
+    border: 25px solid #7EB7CE;
+    border-width: 1px 0;    
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Cham-WebFont', Arial, sans-serif;
+    background-color: #6a8994;
+    border-top: 5px solid #7EB7CE;
+}
+ul#navigation li {
+    display: inline-block;
+    margin-right: .75em;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  width: 200px
+}
+ul#navigation li.last {
+    margin-right: 0;
+}
+
+/* Layout Styles ------------------ */
+    
+.primary-content, 
+.secondary-content {
+  width: 80%;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: auto;
+  max-width: 1050px;
+}
+
+.month {
+  color: white;
+  text-align: left;
+  padding: 18% 24%;
+  border-top: 10px solid #8ACFEA;
+  margin: 105px 0 5px;
+  background: #434a52 url('../img/hermione.jpg') no-repeat center;
+  background-size: cover;
+  box-shadow: inset 0 0 50px 10px rgba(0,0,0, .8);
+  border-radius: 10px;
+}
+
+.arrow {
+  width: 50px;
+  margin-top: 150px;
+}
+
+.rules {
+  text-align:left;
+  color: black;
+  font-size: 1.1em;
+}
+
+#me { 
+  float:left;
+  margin-top: 6%;
+  border-bottom: 10px solid #8ACFEA;
+  margin-right:4%;
+  margin-bottom:4%;
+}
+
+#meja { 
+  float: left;
+  margin-top: 45px;
+  border-bottom: 10px solid #8ACFEA;
+  margin-right:4%;
+}
+
+#us {
+  margin-left: 10%;
+  margin-top: 45px;
+  border-bottom: 10px solid #8ACFEA;
+}
+/* Floated Columns ------------------ */
+
+.sites,
+.list {
+  width: 46.5%;
+}
+
+.list {
+  float: left;
+}
+
+.sites {
+  float: right;
+}
+
+/* Float Clearfix ------------------ */
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Media Queries -------------------- */
+
+@media (max-width: 1024px) {
+  .primary-content,
+  .secondary-content {
+    width: 100%;
+  }
+  .month {
+    padding: 10% 12%;
+    margin: 50px 0 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .primary-content,
+  .secondary-content {
+    width: 100%;
+    padding: 15px;
+    border-top: none;
+  }
+  .main-header {
+    max-height: 380px;
+    padding: 50px 25px 0;
+  }
+  .title {
+    font-size: 1.3rem;
+    border: none;
+  }
+  h1 {
+    font-size: 5rem;
+    line-height: 1.1;
+  }
+  .arrow {
+    display: none;
+  }
+  .intro {
+    font-size: 1rem;
+  }
+  .sites,
+  .list {
+    float: none;
+    width: 100%;
+  }
+  .main-footer {
+    padding: 20px 0;
+  }
+
+
+/*navigation*/
+
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+#cssmenu,
+#cssmenu ul,
+#cssmenu ul li,
+#cssmenu ul li a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  line-height: 1;
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#cssmenu:after,
+#cssmenu > ul:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+#cssmenu {
+  width: auto;
+  border-bottom: 3px solid #8ACFEA;
+  font-family: 'Abolition Regular', Helvetica, Arial, sans-serif;
+  text-transform:uppercase;
+  line-height: 1;
+  padding-bottom: 5%
+}
+#cssmenu ul {
+  background: #fff;
+}
+#cssmenu > ul > li {
+  float: left;
+}
+#cssmenu.align-center > ul {
+  font-size: 0;
+  text-align: center;
+}
+#cssmenu.align-center > ul > li {
+  display: inline-block;
+  float: none;
+}
+#cssmenu.align-right > ul > li {
+  float: right;
+}
+#cssmenu.align-right > ul > li > a {
+  margin-right: 0;
+  margin-left: -4px;
+}
+#cssmenu > ul > li > a {
+  z-index: 2;
+  padding: 18px 35px 12px 25px;
+  font-size: 23px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #444444;
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -ms-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+  margin-right: -4px;
+}
+#cssmenu > ul > li.active > a,
+#cssmenu > ul > li:hover > a,
+#cssmenu > ul > li > a:hover {
+  color: #e5e5e5;
+}
+#cssmenu > ul > li > a:after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  width: 100%;
+  height: 120%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  content: "";
+  -webkit-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+  -webkit-transform: perspective(5px) rotateX(2deg);
+  -webkit-transform-origin: bottom;
+  -moz-transform: perspective(5px) rotateX(2deg);
+  -moz-transform-origin: bottom;
+  transform: perspective(5px) rotateX(2deg);
+  transform-origin: bottom;
+}
+#cssmenu > ul > li.active > a:after,
+#cssmenu > ul > li:hover > a:after,
+#cssmenu > ul > li > a:hover:after {
+  background: #8ACFEA;
+}
+    
